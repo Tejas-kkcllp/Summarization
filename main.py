@@ -11,6 +11,7 @@ from reportlab.lib.pagesizes import letter
 import pdfplumber
 from collections import OrderedDict
 from PyPDF2 import PdfReader, PdfWriter
+import nltk
 
 # Download required NLTK data
 nltk.download('punkt')
